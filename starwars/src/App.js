@@ -31,11 +31,7 @@ const App = () => {
       <h1 className="Header">React Wars</h1>
 
       <CharacterCreator 
-        name={characterInfo.name}
-        birthYear={characterInfo.birth_year}
-        height={characterInfo.height}
-        mass={characterInfo.mass}
-        eyeColor={characterInfo.eye_color}
+        charInfo = {characterInfo}
       />
     </div>
   );
